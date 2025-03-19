@@ -24,3 +24,6 @@ This repository contains code for visualizing and performing calculations on ran
 -Matplotlib
 -Jupyter notebook
 -scipy
+-seaborn
+
+
