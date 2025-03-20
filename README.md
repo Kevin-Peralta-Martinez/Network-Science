@@ -52,10 +52,10 @@ to visualize the transition of the structural properties (topological indices, c
 ```bash
 spectral_properties.ipnynb
 ```
-<br>
 to visualize the transition of the spectral and eigenvector properties (Shannon entropy, Participatio ratio, ratio between consecutive eigenvalue spacings) of the network models as they transit from isolated to complete graphs. This, in the context of an ensemble of weighted adjacency matrices that correspond to the diluted full random matrix ensemble from Random Matrix Theory (RMT).
 
-3. (Optional) Explore the Fortran 90 file (coming soon) <br>
+
+3. (Optional) Explore the Fortran 90 file (coming soon)
 ```bash
 subroutines_structural_and_spectral_properties.f90
 ```
