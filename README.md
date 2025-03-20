@@ -26,4 +26,5 @@ This repository contains code for visualizing and performing calculations on ran
 -scipy
 -seaborn
 
-
+## Make sure to adress the script:
+random_network_models.py
