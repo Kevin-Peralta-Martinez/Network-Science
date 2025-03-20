@@ -13,3 +13,7 @@
 4. The script:<br>
   [dRGG.py]
   creates an instance of the directed random geometric graph of https://iopscience.iop.org/article/10.1088/2632-072X/acace1/meta to exemplify the creation of the directed edges.
+
+5. The script:<br>
+  [subroutines_structural_and_spectral_properties.f90]<br>
+  contains subroutines for calculation of spectral, eigenvector, and structural properties.
