@@ -1,6 +1,8 @@
 # Network-Analysis
 Numerical simulations and analysis of structural, spectral and eigenvector properties of random network models.
-This repository contains code for visualizing and performing calculations on random graphs. It includes numerical computations and ensemble analysis.
+This repository contains code for visualizing and performing calculations of random graphs. It includes numerical computations and ensemble analysis.<br>
+
+*As inspired by my research on random network models: https://scholar.google.com/citations?user=7WnxP60AAAAJ&hl=en&oi=ao*
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -110,7 +112,7 @@ nohup ./executable_name &
 
    Ensure that Bash is installed and available on your system.
 
-2. Hardware Requirements
+2. Hardware Requirements <br>
    a. Multi-core CPU
    The OMP_NUM_THREADS=4 environment variable specifies that the program will use 4 threads for parallel execution.
 
@@ -127,8 +129,11 @@ On macOS, you can use the Intel oneAPI Toolkit for macOS, but the command may ne
 
 4. Alternative compiler:
    ```bash
-gfortran -O3 -fopenmp -o P SpGralGOE.f90 -fdefault-integer-8 -llapack -lblas -lpthread -lm
-```
+   gfortran -O3 -fopenmp -o P SpGralGOE.f90 -fdefault-integer-8 -llapack -lblas -lpthread -lm
+   ```
 Incorporation of BLAS and LAPACK packages is neccesary for numerical diagonalization for the computation of spectral and eigenvector properties.
+
+*Optimization of the tools is coming soon, wait for interactive performance and much more insightful measurements of network models!*
+-
 
 
