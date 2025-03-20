@@ -1,4 +1,4 @@
-Here we upload the data of structural, spectral and eigenvector porperties of my research on:
+Here we upload the data of structural, spectral and eigenvector properties of my research on:
 1. Directed random geometric graphs.
 **Kevin Peralta-Martinez and J A Méndez-Bermúdez. (2023). Directed random geometric graphs: structural and spectral propertie. J. Phys. Complex. 4 015002. https://iopscience.iop.org/article/10.1088/2632-072X/acace1/meta**
 2. Hyperbolic random graph.
