@@ -52,7 +52,7 @@ to visualize the transition of the structural properties (topological indices, c
 ```bash
 spectral_properties.ipnynb
 ```
-to visualize the transition of the spectral and eigenvector properties (Shannon entropy, Participatio ratio, ratio between consecutive eigenvalue spacings) of the network models as they transit from isolated to complete graphs. This, in the context of an ensemble of weighted adjacency matrices that correspond to the diluted full random matrix ensemble from Random Matrix Theory (RMT).
+to visualize the transition of the spectral and eigenvector properties (Shannon entropy, Participatio ratio, ratio between consecutive eigenvalue spacings) of the network models as they transit from isolated to complete graphs. <br> This, in the context of an ensemble of weighted adjacency matrices that correspond to the diluted full random matrix ensemble from Random Matrix Theory (RMT).
 
 
 3. (Optional) Explore the Fortran 90 file (coming soon)
@@ -60,7 +60,7 @@ to visualize the transition of the spectral and eigenvector properties (Shannon 
 subroutines_structural_and_spectral_properties.f90
 ```
 
-here you can find subroutines for the computation of the same structural, spectral, and eigenvector properties of the previous notebooks.
+here you can find subroutines for the computation of the same structural, spectral, and eigenvector properties of the previous notebooks. <br>
 Once you choose the model, you can use the subroutines of subroutines_structural_and_spectral_properties.f90 and perform in parallel for optimization <br>
 ```bash
 ifort -O3 -qopenmp -o executable_name name_of_your_program.f90 -i8 -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lpthread -lm
@@ -73,26 +73,26 @@ OMP_NUM_THREADS=4
 <br>
 
 
-If using a server, <br>
+For running in the background, <br>
 ```bash
 nohup ./executable_name & 
 ```
 <br>
-1. Software Requirements:
-   a. Intel Fortran Compiler (ifort)
+1. Software Requirements:<br>
+   a. Intel Fortran Compiler (ifort)<br>
    The ifort command is part of the Intel oneAPI Toolkit (specifically the Intel oneAPI HPC Toolkit).
 
    You need to install the Intel Fortran Compiler on your machine.
 
    Download and install it from the Intel oneAPI website.
 
-   b. Intel Math Kernel Library (MKL)
+   b. Intel Math Kernel Library (MKL)<br>
    The -lmkl_intel_lp64, -lmkl_intel_thread, and -lmkl_core flags link the Intel MKL libraries.
 
    Intel MKL is included in the Intel oneAPI Base Toolkit.
 
    c. OpenMP Runtime
-   The -qopenmp flag enables OpenMP support, which requires an OpenMP runtime library.<br>
+   The -qopenmp flag enables OpenMP support, which requires an OpenMP runtime library. <br>
    The Intel Fortran Compiler includes the necessary OpenMP runtime, so no additional installation is required.
 
    d. POSIX Threads (pthread)
