@@ -12,4 +12,4 @@
 
 4. The script:<br>
   [dRGG.py]
-  creates an instance of the directed random geometric graph of https://iopscience.iop.org/article/10.1088/2632-072X/acace1/meta to exemplify the creation of the directed eddges.
+  creates an instance of the directed random geometric graph of https://iopscience.iop.org/article/10.1088/2632-072X/acace1/meta to exemplify the creation of the directed edges.
